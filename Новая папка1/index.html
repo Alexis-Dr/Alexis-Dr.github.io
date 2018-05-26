@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AngularMini</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<script src="custom.js"></script>
+<script type="text/javascript" src=""></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+      $('.modal').modal();
+    });
+  </script>
+  <script>
+    $('.carousel.carousel-slider').carousel({fullWidth: true});
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').slider();
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      $("#nav-mobile1").mouseenter(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-mobile1").css("color", "red");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-mobile1").mouseleave(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-mobile1").css("color", "white");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-mobile2").mouseenter(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-mobile2").css("color", "red");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-mobile2").mouseleave(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-mobile2").css("color", "white");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-workers").mouseenter(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-workers").css("color", "red");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-workers").mouseleave(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-workers").css("color", "white");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-map").mouseenter(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-map").css("color", "red");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-map").mouseleave(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-map").css("color", "white");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-contact").mouseenter(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-contact").css("color", "red");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-contact").mouseleave(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#nav-contact").css("color", "white");
+      });
+    });
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      $("#nav-mobile2").focus(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("agm-map").css("margin-top", "-305px");
+      });
+    });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#nav-mobile1").focus(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("agm-map").css("margin-top", "-280px");
+      });
+    });
+  </script>
+<script>
+    $(document).ready(function(){
+      $("#searchInput").keyup(function(){
+        /*alert("The paragraph was clicked.");*/
+        $("#searchInput").css("color", "red");
+/*        $("#searchLabel").css("color", "black");
+        $(".input-field").css("color", "black");*/
+      });
+    });
+  </script>
+
+  <app-root></app-root>
+
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+</html>
